@@ -65,6 +65,8 @@ public class LogicActivity extends AppCompatActivity implements View.OnClickList
                     User user = mDBHelper.selectByAccount(account);
                     if(account.equals(user.getAccount()) && pwd.equals(user.getPassword())){
                         ToastUtils.show(this,"登录成功");
+                        Intent intent = new Intent(this,HomeActivity.class);
+                        startActivity(intent);
                     }else{
                         ToastUtils.show(this,"用户名或密码错误");
                     }

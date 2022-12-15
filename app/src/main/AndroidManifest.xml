@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.end_semester_homework">
 
     <application
@@ -10,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Endsemesterhomework">
+        <activity android:name=".activty.HomeActivity" android:exported="false"/>
         <activity
             android:name=".activty.RegisterActivity"
             android:exported="false" />
@@ -17,9 +17,8 @@
             android:name=".activty.LogicActivity"
             android:exported="false" />
         <activity
-            android:name=".activty.HomeActivity"
-            android:exported="true"
-            tools:ignore="Instantiatable">
+            android:name=".activty.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,7 +26,5 @@
             </intent-filter>
         </activity>
     </application>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET" />
+
 </manifest>
