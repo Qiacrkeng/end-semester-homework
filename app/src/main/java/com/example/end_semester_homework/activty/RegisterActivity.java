@@ -1,18 +1,15 @@
-package com.example.end_semester_homework;
+package com.example.end_semester_homework.activty;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.transition.Explode;
-import android.transition.Fade;
-import android.transition.Slide;
 import android.util.Log;
 import android.view.View;
-import android.view.Window;
 import android.widget.EditText;
 
+import com.example.end_semester_homework.R;
 import com.example.end_semester_homework.database.UserDBHelper;
 import com.example.end_semester_homework.entity.User;
 import com.example.end_semester_homework.util.ToastUtils;

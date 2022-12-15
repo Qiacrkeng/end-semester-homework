@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Endsemesterhomework">
         <activity
-            android:name=".RegisterActivity"
+            android:name=".activty.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".LogicActivity"
+            android:name=".activty.LogicActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activty.HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

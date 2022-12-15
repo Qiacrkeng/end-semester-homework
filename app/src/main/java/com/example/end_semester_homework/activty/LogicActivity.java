@@ -1,4 +1,4 @@
-package com.example.end_semester_homework;
+package com.example.end_semester_homework.activty;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,8 +11,8 @@ import android.transition.Explode;
 import android.view.View;
 import android.view.Window;
 import android.widget.EditText;
-import android.widget.Toast;
 
+import com.example.end_semester_homework.R;
 import com.example.end_semester_homework.database.UserDBHelper;
 import com.example.end_semester_homework.entity.User;
 import com.example.end_semester_homework.util.ToastUtils;

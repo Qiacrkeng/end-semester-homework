@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context="com.example.end_semester_homework.RegisterActivity">
+    tools:context="com.example.end_semester_homework.activty.RegisterActivity">
 
     <ImageView
         android:layout_width="match_parent"
