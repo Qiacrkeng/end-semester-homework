@@ -43,22 +43,22 @@
         </LinearLayout>
 
         <com.flyco.tablayout.SlidingTabLayout
-            android:id="@+id/slide"
+            android:id="@+id/slidingTabLayout"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            tools:tl_indicator_corner_radius="1.5dp"
-            tools:tl_indicator_height="3dp"
-            tools:tl_indicator_width="17dp"
-            tools:tl_textSelectColor="#fdf299"
-            tools:tl_textUnselectColor="#ffffff"
-            tools:tl_indicator_color="#fdf299"
-            tools:tl_textsize="16sp" />
+            tl:tl_indicator_corner_radius="1.5dp"
+            tl:tl_indicator_height="3dp"
+            tl:tl_indicator_width="17dp"
+            tl:tl_textSelectColor="#fdf299"
+            tl:tl_textUnselectColor="#ffffff"
+            tl:tl_indicator_color="#fdf299"
+            tl:tl_textsize="16sp" />
 
-        <androidx.viewpager.widget.ViewPager
-            android:id="@+id/viewPage"
-            android:layout_weight="1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />
     </LinearLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="545dp" />
+
 </LinearLayout>
