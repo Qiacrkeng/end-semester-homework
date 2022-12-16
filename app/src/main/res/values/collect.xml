@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="citys">
+        <item>收藏 - 台北</item>
+        <item>收藏 - 上海</item>
+        <item>收藏 - 广州</item>
+        <item>收藏 - 深圳</item>
+        <item>收藏 - 郑州</item>
+        <item>收藏 - 成都</item>
+    </string-array>
+</resources>
